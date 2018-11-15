@@ -102,8 +102,8 @@ Run your project (Cmd+R)
 ```diff
 dependencies {
     ...
-    implementation "com.facebook.react:react-native:+"  // From node_modules
-+   implementation project(':react-native-device-info')
+    compile "com.facebook.react:react-native:+"  // From node_modules
++   compile project(':react-native-device-info')
 }
 ```
 
